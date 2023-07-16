@@ -50,8 +50,8 @@ function Todolist () {
                 item.map((newItem, index)=>{
                     return(
                         <div className="todo-card">
-                             <p>{index+1}. {newItem}</p> chalo ho gaya na aur kuchh hai
-                            <p>status: </p>
+                             <p>{index+1}. {newItem}</p>
+                            <p>status: pending </p>
                         <div>
     
                             <button id="edit">Change Status</button>
